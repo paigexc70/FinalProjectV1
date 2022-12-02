@@ -9,7 +9,40 @@
     <link rel="tvicon" href="970020.png">
 </head>
 <body>
-    <script src="main.js"></script>
+    
+
+    <header>
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="close-icon"></i></span>
+                <ul class="navlist">
+                    <li class="navitem">
+                        <a href="#">Homepage</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#">Forum</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#">Detail</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="baricon" id="iconBar" onclick="hideIconBar()"><i class="bars"></i></a>
+            <div class="brand">MyForum</div>
+        </div>
+        <!--Search-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Everything</option>
+                    <option value="Titles">Titles</option>
+                    <option value="Descriptions">Descriptions</option>
+                </select>
+                <input type="text" name="q" placeholder="search">
+                <button><i class="search"></i></button>
+            </div>
+        </div>
+    </header>
 
     <div class="container">
         <div class = "subforum">
@@ -34,7 +67,7 @@
              <small>date</small>
         </div>
     </div>  
-    
+    <hr class="divide">
     <div class="container">
         <div class = "subforum">
             <div class="subforumtitle">
@@ -57,7 +90,7 @@
              <small>date</small>
         </div>
     </div> 
-    
+    <hr class="divide">
     <div class="container">
         <div class = "subforum">
             <div class="subforumtitle">
@@ -80,7 +113,7 @@
              <small>date</small>
         </div>
     </div> 
-
+    <hr class="divide">
     <div class="container">
         <div class = "subforum">
             <div class="subforumtitle">
@@ -98,13 +131,14 @@
             <span>20 Post</span>
         </div>
         <div class="subforuminfo subforumcolumn">
-             <b><a href=""> Last Post:</a></b> by <a href="">User</a>
+             <b><a href=""> Last Post</a></b> by <a href="">User</a>
              <br>
              <small>date</small>
         </div>
     </div> 
 
-
+<footer>Paige Dyer | Web And Distributed Programming</footer>    
+<script src="main.js"></script>
 
 </body>
 </html>
