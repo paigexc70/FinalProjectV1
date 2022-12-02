@@ -35,15 +35,19 @@ h1{
     margin: 4px;
 }
 
+.subforuminfo *{
+    margin-block: 0;
+}
+
 .subforumrow{
     display: grid;
-    grid-template-columns: 7% 60% 13% 20%;
+    grid-template-columns: 10% 60% 20% 10%;
 }
 
 .subforumcolumn{
     padding: 10px;
     margin: 2px;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color:white;
 }
 
