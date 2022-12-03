@@ -3,7 +3,7 @@
 }
 
 html{
-    font-size: 14px;
+   
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgba(0, 183, 255, 0.63);
     color: black;
@@ -16,8 +16,26 @@ a{
 }
 
 h1{
-    font-size: 16px;
+    font-size: 40px;
     font-weight: bolder;
+    text-align: center;
+    text-decoration-line: underline;
+  
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+h3{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+h4{
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .container{
@@ -59,41 +77,9 @@ center{
 
 header{
     margin-inline: 10px;
+    
 }
 
-.navbar{
-    display: flex;
-    align-items: center;
-}
-
-.navigation{
-    background-color: blueviolet;
-    padding: 10px;
-    width: 65%;
-    display: inline-block;
-    border-radius: 5px;
-    max-height: 80px;
-    margin-right: 10px;
-}
-
-.navlist{
-    list-style-type: none;
-    overflow: hidden;
-}
-
-.navitem a{
-    float: right;
-    display: block;
-    text-align: center;
-    margin-inline: 20px;
-    font-size: 20px;
-    padding: 10px;
-    color: white;
-}
-
-.navitem a:hover{
-    background-color: aquamarine;
-}
 
 .hide{
     display: none;
